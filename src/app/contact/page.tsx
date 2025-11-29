@@ -86,7 +86,7 @@ export default function ContactPage() {
       {/* RIGHT SIDE: IBRAHIM AMIN DETAILS */}
       <div className="w-full lg:w-1/3 flex flex-col items-center lg:items-start text-white space-y-6">
         <img
-          src="/amin4.png" // apni image ka path
+          src="/amin10.png" // apni image ka path
           alt="Ibrahim Amin"
           className="w-56 h-56 rounded-3xl object-cover shadow-2xl border-4 border-white"
         />
@@ -96,9 +96,9 @@ export default function ContactPage() {
           Reach out for expert advice on buying, selling, or investing in properties.
         </p>
         <p className="bg-white/10 px-4 py-2 rounded-xl border border-white/20 backdrop-blur-lg text-sm">
-          📞 Phone: +92 300 0000000  
+          📞 Phone: +92 322 5300000
           <br />
-          📍 Location: DHA Lahore
+          📍 Location: Room No,  804, 8th Floor, Saima Trade Tower, I I Chundrigar Road, Karachi Sindh
         </p>
       </div>
 
