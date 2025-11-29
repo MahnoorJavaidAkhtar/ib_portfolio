@@ -1,4 +1,5 @@
-'use client'
+"use client";
+
 import { useState, ChangeEvent, FormEvent } from "react";
 
 export default function ContactPage() {
@@ -29,6 +30,7 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-[#0A1F44] p-6 gap-10">
+
       {/* LEFT SIDE: FORM */}
       <form
         onSubmit={handleSubmit}
@@ -80,8 +82,29 @@ export default function ContactPage() {
           </p>
         )}
       </form>
+
+      {/* RIGHT SIDE: IBRAHIM AMIN DETAILS */}
+      <div className="w-full lg:w-1/3 flex flex-col items-center lg:items-start text-white space-y-6">
+        <img
+          src="/amin4.png" // apni image ka path
+          alt="Ibrahim Amin"
+          className="w-56 h-56 rounded-3xl object-cover shadow-2xl border-4 border-white"
+        />
+        <h2 className="text-3xl font-bold">Ibrahim Amin</h2>
+        <p className="opacity-90 leading-relaxed text-center lg:text-left">
+          Ibrahim Amin is a highly experienced real estate consultant with a deep understanding of property investment and market trends.  
+          Reach out for expert advice on buying, selling, or investing in properties.
+        </p>
+        <p className="bg-white/10 px-4 py-2 rounded-xl border border-white/20 backdrop-blur-lg text-sm">
+          📞 Phone: +92 300 0000000  
+          <br />
+          📍 Location: DHA Lahore
+        </p>
+      </div>
+
     </div>
   );
 }
+
 
 
